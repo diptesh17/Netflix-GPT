@@ -50,7 +50,7 @@ const Login = () => {
 
     if (message || name_validation) return;
 
-    // Sign In , SIgn Out logic
+    // SIgn Up logic
 
     createUserWithEmailAndPassword(
       auth,
